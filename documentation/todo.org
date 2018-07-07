@@ -1,0 +1,49 @@
+I'm going to break down checkers.
+
+* Raw notes
+** Turn Indicator - Red or Black?
+** Board
+** Pieces (Red, Black, King?)
+** Tiles
+** Ruleset
+Whose turn?
+Valid moves?
+Game Over?
+Who won?
+** Board
+Select a tile
+Hover over a tile
+Highlight valid moves
+** Mouse controls
+Mouse Over Tiles
+Click on tile
+Click on destination
+Undo?
+** KB controls
+Move over tiles
+Select tile
+Select destination
+Undo?
+* Roadmap
+** TODO Work on Interaction First
+*** TODO First, a new background color
+*** TODO Now add a state for the UI
+*** TODO Add buttons
+**** TODO Add behavior for buttons
+**** TODO Disable for 1 second
+*** TODO Add Turn Labels
+**** TODO Animate Labels
+**** TODO Slide in, stay 1 second
+*** TODO Adds the "Red/Black Wins" label
+**** TODO Animate Slide in
+*** TODO And now, the game board
+**** TODO Draw it
+**** TODO Animate hovered tiles
+**** TODO Animate clicked tiles
+*** TODO Board Pieces
+**** TODO Draw pieces on board
+**** TODO Draw moving piece
+**** TODO Draw jumping piece
+**** TODO Draw kinged piece
+**** TODO Draw captured piece
+**** TODO Draw multiple pieces
